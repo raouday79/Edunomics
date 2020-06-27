@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RippleStyleBlack"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/lyt_parent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize">
+        <ImageView android:id="@id/image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginTop="@dimen/spacing_middle" android:layout_marginRight="@dimen/spacing_large" android:src="@drawable/ic_sentiment_satisfied_black_24dp" />
+        <View android:layout_width="@dimen/spacing_medium" android:layout_height="0.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_middle" android:paddingBottom="@dimen/spacing_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView   android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey_90" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/spacing_middle" android:text="People Name" />
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="@color/grey_40" android:id="@+id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:layout_marginRight="@dimen/spacing_middle" android:text="description" android:maxLines="2" />
+            </LinearLayout>
+            <View android:background="@color/grey_10" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>

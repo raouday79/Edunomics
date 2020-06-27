@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/spacing_large" android:layout_width="330.0dip" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/spacing_middle" />
+            <ImageView android:layout_width="match_parent" android:layout_height="100.0dip" android:src="@drawable/euu"  />
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/spacing_large" />
+            <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:textStyle="bold" android:textColor="@color/blue_grey_800" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:text="Welcome Back," />
+            <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" android:textStyle="bold" android:textColor="@color/blue_grey_300" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:text="Register in to continue" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.1" />
+            <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" android:textStyle="bold" android:textColor="@color/blue_grey_800" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name" />
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/name" android:theme="@style/EditText.Grey" android:textColor="@color/blue_grey_300" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_marginRight="-4.0dip" android:maxLines="1" android:singleLine="true" android:maxLength="50" android:inputType="textEmailAddress" />
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/spacing_mlarge" />
+
+            <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" android:textStyle="bold" android:textColor="@color/blue_grey_800" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email" />
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/email" android:theme="@style/EditText.Grey" android:textColor="@color/blue_grey_300" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_marginRight="-4.0dip" android:maxLines="1" android:singleLine="true" android:maxLength="50" android:inputType="textEmailAddress" />
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/spacing_mlarge" />
+
+
+            <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" android:textStyle="bold" android:textColor="@color/blue_grey_800" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password" />
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/passwprd" android:theme="@style/EditText.Grey" android:textColor="@color/blue_grey_300" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_marginRight="-4.0dip" android:maxLines="1" android:singleLine="true" android:maxLength="50" android:inputType="textPassword" />
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/spacing_middle" />
+
+
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/spacing_large" />
+            <Button android:id="@+id/signup" android:textStyle="bold" android:textColor="@android:color/white" android:background="@drawable/btn_purple_a400" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginLeft="-4.0dip" android:layout_marginRight="-4.0dip" android:text="Sign up" android:textAllCaps="false" />
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/spacing_medium" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium">
+                <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" android:textColor="@color/blue_grey_300" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Already have account? " />
+                <TextView  android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" android:textStyle="bold" android:textColor="@color/edunomics_1" android:id="@+id/login_clk" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Login" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/spacing_xlarge" />
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_below="@+id/editTextCode"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-214dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

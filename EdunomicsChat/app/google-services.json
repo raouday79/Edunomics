@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "533828516796",
+    "firebase_url": "https://edunomics-chat.firebaseio.com",
+    "project_id": "edunomics-chat",
+    "storage_bucket": "edunomics-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533828516796:android:c302a11eb8fe2933f6c9b9",
+        "android_client_info": {
+          "package_name": "in.edunomics.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533828516796-g4a62utibuuh3tgd0883cnsmedctdh0m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.edunomics.chat",
+            "certificate_hash": "3915b0dae8862d7ba2e47f6f958ebeff7f814417"
+          }
+        },
+        {
+          "client_id": "533828516796-2vu77nkp1rfknsdbgstu5gnbaea265or.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr9Xd7ya26GcyK9cL49gvTnGQql08dLvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533828516796-2vu77nkp1rfknsdbgstu5gnbaea265or.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
